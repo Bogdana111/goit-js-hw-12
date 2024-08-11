@@ -4,14 +4,31 @@
     <meta charset="UTF-8" />
     <!-- <link rel="icon" type="image/svg+xml" href="/favicon.svg" /> -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vanilla App Template</title>
-    
+    <title>Homework 12</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
     <script type="module" crossorigin src="/goit-js-hw-12/commonHelpers.js"></script>
-    <link rel="stylesheet" href="/goit-js-hw-12/assets/index-b3d1a2ef.css">
+    <link rel="modulepreload" crossorigin href="/goit-js-hw-12/assets/vendor-D1eTGYtO.js">
+    <link rel="stylesheet" crossorigin href="/goit-js-hw-12/assets/vendor-DumFYO8Z.css">
+    <link rel="stylesheet" crossorigin href="/goit-js-hw-12/assets/index-DbNr80X3.css">
   </head>
   <body>
-    
-    
-    
+    <form class="search-form">
+      <div class="form-group">
+        <input class="input-text" type="text" placeholder="Search images..." />
+      </div>
+      <button class="button" type="submit">Search</button>
+    </form>
+
+    <span class="hidden loader"></span>
+
+    <div class="gallery"></div>
+
+    <button class="load-more hidden">Load more</button>
+
   </body>
 </html>
